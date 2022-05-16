@@ -1,0 +1,73 @@
+/* static/style.css */
+h1 {
+    color: navajowhite;
+    font-variant-caps: all-small-caps;
+    font-size: 46px;
+}
+.subTitle {
+	color: navajowhite;
+	font-variant-caps: all-small-caps;
+	font-size: 20px;
+	text-align: center;
+}
+body {
+	background: #ad5389;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.styeHead{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.styleNav{
+	/*vertical-align: middle;*/
+	margin-top: 10%;
+}
+.sectionForm{
+	justify-content: center;
+}
+.containerForm{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.styleForm{
+	align-items:stretch;
+	text-align: center;
+	color: navajowhite;
+}
+.buttomUpload{
+	float: left;
+	margin-left: 40%;
+}
+.buttomSend{
+	float: right;
+	margin-right: 40%;
+}
+.butomAStyle{
+
+}
+.butomBStyle{
+	color: navajowhite;
+	font-variant-caps: all-small-caps;
+	background: #ad5389;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 10px;
+	width: 100px;
+	height: 30px;
+}
+.butomBStyle:hover{
+	background: #FC5C7D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.labelStyle{
+		color: navajowhite;
+		font-variant-caps: all-small-caps;
+}
